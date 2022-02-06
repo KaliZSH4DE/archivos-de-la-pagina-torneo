@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nombre de la pagina</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" type="img/png" href=img/icono de la pagina>
+    </head>
+    <body>
+        <!--NavBar-->
+        <header>
+            <div class=menu>
+                <img class=iconoatl src=img/icono de la pagina>
+                <nav>
+                    <ul>
+                        <li><a href=index.html>Inicio</a></li>
+                        <li><a href=formulario.php>Registro</a></li>
+                        <li><a href=informacion.html>Informacion</a></li>
+                        <li><a href=datos.html>Datos</a></li>
+                        <li><a href=codigo.html>Codigo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Pagina-->
+        <div class=contenedor>
+            <h1>
+                Codigo fuente
+            </h1>
+            <h3>
+                PHP, HTML, CSS, MySQL
+            </h3>
+            <br><hr><br>
+            <p>
+                Perfecto, veo que te ha interesado el codigo de mi pagina.
+                <br>
+                <br>
+                Pues bien, aqui te dejo el link a mi repositorio de GitHub para que puedas verlo, alli encontraras todos los archivos utilizados a exepcion de las imagenes y PDF
+                pero te sera util en caso de que quieras crear una web parecida.
+                <br><br>
+            </p>
+            <a href=""><img src="img/github.png" width="10%"></a>
+        </div>
+    </body>
+</html>

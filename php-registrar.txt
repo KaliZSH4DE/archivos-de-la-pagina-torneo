@@ -1,0 +1,25 @@
+<?php
+include("databaseconect.php");
+if (isset($_POST['register'])) {
+    if (strlen($_POST['name']) >= 1 && strlen($_POST['email']) >= 1){
+        $name = trim($_POST['name']);
+        $email = trim($_POST['email']);
+        $consulta = "INSERT INTO registro(nombre, email) VALUES ('$name','$email')";
+        $resultado = mysqli_query($conex,$consulta);
+        if ($resultado) {
+            ?>
+            <center><h3 class="ok">Te has registrado correctamente !</h3></center>
+            <?php
+        } else {
+            ?>
+            <center><h3 class="bad">No te has registrado correctamente !</h3></center>
+            <?php
+        }
+    }   else {
+        ?>
+        <center><h3 class="bad">Por favor complete los campos para continuar !</h3></center>
+        <?php
+        
+    }
+}
+?>

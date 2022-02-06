@@ -1,0 +1,3 @@
+<?php
+$conex = mysqli_connect("localhost","Usuario","Contraseña","Nombre de la base de datos");
+?>

@@ -1,0 +1,114 @@
+/*Full*/
+body {
+	background-image: url(img/nombre de la imagen de fondo);
+	background-size: 100%;
+	background-repeat: no-repeat
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+    box-sizing: border-box
+}
+/*NavBar*/
+.menu{
+    width: 90%;
+    margin: 0 auto
+}
+header{
+    background-color: #codigo hexadecimal del color;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table
+}
+.iconoatl{
+    width: 6%;
+    float: right;
+    padding: 0.8%
+}
+nav{
+    float: center
+}
+nav ul li{
+    list-style: none;
+    margin-right: 7.5%;
+    padding: 2% 0;
+    float: left;
+    position: relative
+}
+a{
+    text-decoration: none;
+    color: #BA0000;
+    font-weight: bold;
+	font-size:small
+}
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #codigo hexadecimal del color;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s
+}
+nav ul li a:hover::before{
+    width: 100%
+}
+/*Responsive desing*/
+.contenedor{
+	padding: 10% 2%;
+	background-color: #codigo hexadecimal del color;
+	margin: calc(10% + 10%);
+	margin-top: 7%;
+	padding-top: 2.8%;
+	margin-bottom: 3%
+}
+/*Pagina web*/
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #codigo hexadecimal del color
+}
+h3{
+	color: #codigo hexadecimal del color
+}
+input {
+	background-color: #codigo hexadecimal del color;
+	color: #codigo hexadecimal del color;
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 1.2%;
+	font-size: 16px
+}
+input[type='submit']{
+	background-color: #codigo hexadecimal del color;
+	color: #codigo hexadecimal del color;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 2.2%;
+	border: none
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #codigo hexadecimal del color;
+	color: #codigo hexadecimal del color
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #codigo hexadecimal del color;
+	color: #codigo hexadecimal del color
+}
+.resalted{
+    color: #codigo hexadecimal del color
+}
+p{
+	color: #codigo hexadecimal del color
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nombre de la pagina</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" type="img/png" href=img/icono de la pagina>
+    </head>
+    <body>
+        <!--NavBar-->
+        <header>
+            <div class=menu>
+                <img class=iconoatl src=img/icono de la pagina>
+                <nav>
+                    <ul>
+                        <li><a href=index.html>Inicio</a></li>
+                        <li><a href=formulario.php>Registro</a></li>
+                        <li><a href=informacion.html>Informacion</a></li>
+                        <li><a href=datos.html>Datos</a></li>
+                        <li><a href=codigo.html>Codigo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Pagina-->
+        <div class=contenedor>
+            <h1>Integrantes</h1>
+            <br><hr><br>
+            <p>
+                Perfecto, a continuacion te presento los datos de los integrantes.
+                <br><br>
+                <span class="resalted">-Integrante</span>
+                <br>
+                Ocupacion.
+                <br><br>
+                <a href="link whatsapp"><img src="img/whatsapp.png" width="8%"></a>
+                <br><br>
+                <span class="resalted">-Integrante</span>
+                <br>
+                Ocupacion.
+                <br><br>
+                <a href="Link whatsapp"><img src="img/whatsapp.png" width="8%"></a>
+                <br><br>
+                <span class="resalted">-Integrante</span>
+                <br>
+                Ocupacion.
+                <br><br>
+                <a href="Link whatsapp"><img src="img/whatsapp.png" width="8%"></a>
+            </p>
+        </div>
+    </body>
+</html>
